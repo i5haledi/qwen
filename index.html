@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safa Water Company - Pure Water. Premium Quality.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <svg class="logo-icon" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#0077B6"/>
+                            <stop offset="100%" style="stop-color:#00B4D8"/>
+                        </linearGradient>
+                    </defs>
+                    <circle cx="30" cy="30" r="28" stroke="url(#logoGradient)" stroke-width="2" fill="none"/>
+                    <path d="M30 12C30 12 18 24 18 34C18 40.6274 23.3726 46 30 46C36.6274 46 42 40.6274 42 34C42 24 30 12 30 12Z" fill="url(#logoGradient)"/>
+                    <ellipse cx="30" cy="36" rx="8" ry="5" fill="white" fill-opacity="0.3"/>
+                </svg>
+                <span class="logo-text">Safa Water</span>
+            </a>
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#products" class="nav-link">Products</a></li>
+                    <li><a href="#quality" class="nav-link">Quality</a></li>
+                    <li><a href="#sustainability" class="nav-link">Sustainability</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn btn-primary header-cta">Order Now</a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-badge">Premium Quality Since 2010</span>
+                <h1 class="hero-title">
+                    Pure Water.<br>
+                    <span class="gradient-text">Premium Quality.</span><br>
+                    Trusted Every Day.
+                </h1>
+                <p class="hero-subtitle">
+                    Experience the essence of purity with Safa Water. Our advanced purification process delivers refreshingly clean, mineral-balanced water that nourishes your body and elevates your lifestyle.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary btn-lg">Explore Products</a>
+                    <a href="#contact" class="btn btn-outline btn-lg">Contact Us</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">500K+</span>
+                        <span class="stat-label">Happy Customers</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">99.9%</span>
+                        <span class="stat-label">Purity Level</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Years of Trust</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="bottle-mockup">
+                    <div class="bottle-glow"></div>
+                    <svg class="bottle-svg" viewBox="0 0 200 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="bottleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:rgba(0,119,182,0.1)"/>
+                                <stop offset="50%" style="stop-color:rgba(0,180,216,0.2)"/>
+                                <stop offset="100%" style="stop-color:rgba(0,119,182,0.15)"/>
+                            </linearGradient>
+                            <linearGradient id="capGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#0077B6"/>
+                                <stop offset="100%" style="stop-color:#005F8A"/>
+                            </linearGradient>
+                        </defs>
+                        <!-- Bottle Body -->
+                        <rect x="50" y="100" width="100" height="380" rx="15" fill="url(#bottleGradient)" stroke="rgba(0,119,182,0.3)" stroke-width="2"/>
+                        <!-- Bottle Neck -->
+                        <rect x="75" y="60" width="50" height="45" rx="5" fill="url(#bottleGradient)" stroke="rgba(0,119,182,0.3)" stroke-width="2"/>
+                        <!-- Bottle Cap -->
+                        <rect x="70" y="35" width="60" height="30" rx="5" fill="url(#capGradient)"/>
+                        <!-- Label -->
+                        <rect x="55" y="220" width="90" height="140" rx="8" fill="white" fill-opacity="0.9"/>
+                        <text x="100" y="275" text-anchor="middle" font-family="Playfair Display" font-size="24" font-weight="700" fill="#0077B6">Safa</text>
+                        <text x="100" y="300" text-anchor="middle" font-family="Inter" font-size="12" fill="#005F8A">PURE WATER</text>
+                        <circle cx="100" cy="330" r="15" fill="url(#logoGradient)"/>
+                        <!-- Water Level Effect -->
+                        <ellipse cx="100" cy="110" rx="45" ry="8" fill="rgba(0,180,216,0.3)"/>
+                    </svg>
+                </div>
+                <div class="floating-drop drop1"></div>
+                <div class="floating-drop drop2"></div>
+                <div class="floating-drop drop3"></div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll to explore</span>
+            <div class="scroll-indicator"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container about-container">
+            <div class="section-header">
+                <span class="section-badge">Our Story</span>
+                <h2 class="section-title">Committed to Purity,<br>Dedicated to Health</h2>
+                <p class="section-subtitle">
+                    At Safa Water, we believe that access to pure, clean water is fundamental to a healthy life. 
+                    Our state-of-the-art purification facility ensures every drop meets the highest standards.
+                </p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card featured">
+                    <div class="about-image">
+                        <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="300" rx="20" fill="url(#aboutGrad1)"/>
+                            <defs>
+                                <linearGradient id="aboutGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#E0F4FF"/>
+                                    <stop offset="100%" style="stop-color:#B8E4F6"/>
+                                </linearGradient>
+                            </defs>
+                            <circle cx="200" cy="150" r="60" fill="white" fill-opacity="0.5"/>
+                            <path d="M200 100C200 100 170 130 170 155C170 171.569 183.431 185 200 185C216.569 185 230 171.569 230 155C230 130 200 100 200 100Z" fill="#0077B6"/>
+                        </svg>
+                    </div>
+                    <div class="about-content">
+                        <h3>Advanced Purification</h3>
+                        <p>Our multi-stage reverse osmosis system removes impurities while preserving essential minerals for optimal taste and health benefits.</p>
+                        <ul class="feature-list">
+                            <li>
+                                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                7-Stage Filtration Process
+                            </li>
+                            <li>
+                                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                UV Sterilization Technology
+                            </li>
+                            <li>
+                                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                Mineral Enhancement
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-cards">
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="24" r="20" stroke="#0077B6" stroke-width="2"/>
+                                <path d="M24 14V24L30 30" stroke="#0077B6" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h4>Clean Source</h4>
+                        <p>Sourced from protected underground aquifers, naturally filtered through layers of rock.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="8" y="12" width="32" height="24" rx="4" stroke="#0077B6" stroke-width="2"/>
+                                <path d="M16 12V8H32V12" stroke="#0077B6" stroke-width="2"/>
+                                <circle cx="24" cy="24" r="6" stroke="#0077B6" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h4>Quality Control</h4>
+                        <p>Rigorous testing at every stage ensures consistent purity and safety standards.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container products-container">
+            <div class="section-header center">
+                <span class="section-badge">Our Products</span>
+                <h2 class="section-title">Choose Your Perfect Size</h2>
+                <p class="section-subtitle">
+                    From personal hydration to family-sized packs, Safa Water offers premium bottled water 
+                    in various sizes to fit every lifestyle and occasion.
+                </p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card" data-product="330ml">
+                    <div class="product-badge">Popular</div>
+                    <div class="product-image">
+                        <svg viewBox="0 0 120 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="prodGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:rgba(0,119,182,0.15)"/>
+                                    <stop offset="100%" style="stop-color:rgba(0,180,216,0.2)"/>
+                                </linearGradient>
+                            </defs>
+                            <rect x="35" y="60" width="50" height="200" rx="8" fill="url(#prodGrad1)" stroke="rgba(0,119,182,0.3)" stroke-width="1.5"/>
+                            <rect x="45" y="35" width="30" height="28" rx="3" fill="url(#prodGrad1)" stroke="rgba(0,119,182,0.3)" stroke-width="1.5"/>
+                            <rect x="42" y="20" width="36" height="18" rx="3" fill="#0077B6"/>
+                            <rect x="38" y="120" width="44" height="70" rx="4" fill="white" fill-opacity="0.9"/>
+                            <text x="60" y="150" text-anchor="middle" font-family="Playfair Display" font-size="14" font-weight="700" fill="#0077B6">Safa</text>
+                            <text x="60" y="165" text-anchor="middle" font-family="Inter" font-size="8" fill="#005F8A">330ml</text>
+                        </svg>
+                    </div>
+                    <div class="product-info">
+                        <h3>330ml Bottle</h3>
+                        <p>Perfect for on-the-go hydration. Compact and convenient for meetings, travel, and daily commutes.</p>
+                        <div class="product-meta">
+                            <span class="size">330ml</span>
+                            <span class="pack">Pack of 24</span>
+                        </div>
+                        <a href="#contact" class="btn btn-primary btn-sm">Order Now</a>
+                    </div>
+                </div>
+                <div class="product-card featured" data-product="500ml">
+                    <div class="product-badge bestseller">Best Seller</div>
+                    <div class="product-image">
+                        <svg viewBox="0 0 140 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="prodGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:rgba(0,119,182,0.15)"/>
+                                    <stop offset="100%" style="stop-color:rgba(0,180,216,0.2)"/>
+                                </linearGradient>
+                            </defs>
+                            <rect x="40" y="70" width="60" height="250" rx="10" fill="url(#prodGrad2)" stroke="rgba(0,119,182,0.3)" stroke-width="2"/>
+                            <rect x="50" y="40" width="40" height="35" rx="4" fill="url(#prodGrad2)" stroke="rgba(0,119,182,0.3)" stroke-width="2"/>
+                            <rect x="46" y="22" width="48" height="22" rx="4" fill="#0077B6"/>
+                            <rect x="44" y="150" width="52" height="90" rx="5" fill="white" fill-opacity="0.95"/>
+                            <text x="70" y="190" text-anchor="middle" font-family="Playfair Display" font-size="18" font-weight="700" fill="#0077B6">Safa</text>
+                            <text x="70" y="210" text-anchor="middle" font-family="Inter" font-size="10" fill="#005F8A">PREMIUM WATER</text>
+                            <text x="70" y="230" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#0077B6">500ml</text>
+                        </svg>
+                    </div>
+                    <div class="product-info">
+                        <h3>500ml Bottle</h3>
+                        <p>Our most popular size. Ideal for gym sessions, office desks, and everyday hydration needs.</p>
+                        <div class="product-meta">
+                            <span class="size">500ml</span>
+                            <span class="pack">Pack of 24</span>
+                        </div>
+                        <a href="#contact" class="btn btn-primary btn-sm">Order Now</a>
+                    </div>
+                </div>
+                <div class="product-card" data-product="1.5L">
+                    <div class="product-image">
+                        <svg viewBox="0 0 160 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="prodGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:rgba(0,119,182,0.15)"/>
+                                    <stop offset="100%" style="stop-color:rgba(0,180,216,0.2)"/>
+                                </linearGradient>
+                            </defs>
+                            <rect x="45" y="80" width="70" height="300" rx="12" fill="url(#prodGrad3)" stroke="rgba(0,119,182,0.3)" stroke-width="2"/>
+                            <rect x="58" y="45" width="44" height="40" rx="5" fill="url(#prodGrad3)" stroke="rgba(0,119,182,0.3)" stroke-width="2"/>
+                            <rect x="53" y="25" width="54" height="25" rx="5" fill="#0077B6"/>
+                            <rect x="50" y="180" width="60" height="110" rx="6" fill="white" fill-opacity="0.95"/>
+                            <text x="80" y="225" text-anchor="middle" font-family="Playfair Display" font-size="22" font-weight="700" fill="#0077B6">Safa</text>
+                            <text x="80" y="250" text-anchor="middle" font-family="Inter" font-size="11" fill="#005F8A">PREMIUM WATER</text>
+                            <text x="80" y="275" text-anchor="middle" font-family="Inter" font-size="14" font-weight="600" fill="#0077B6">1.5 Liters</text>
+                        </svg>
+                    </div>
+                    <div class="product-info">
+                        <h3>1.5L Bottle</h3>
+                        <p>Great value for extended hydration. Perfect for meals, road trips, and sharing.</p>
+                        <div class="product-meta">
+                            <span class="size">1.5L</span>
+                            <span class="pack">Pack of 12</span>
+                        </div>
+                        <a href="#contact" class="btn btn-primary btn-sm">Order Now</a>
+                    </div>
+                </div>
+                <div class="product-card" data-product="family">
+                    <div class="product-image">
+                        <svg viewBox="0 0 180 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="prodGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:rgba(0,119,182,0.15)"/>
+                                    <stop offset="100%" style="stop-color:rgba(0,180,216,0.2)"/>
+                                </linearGradient>
+                            </defs>
+                            <rect x="50" y="90" width="80" height="310" rx="14" fill="url(#prodGrad4)" stroke="rgba(0,119,182,0.3)" stroke-width="2.5"/>
+                            <rect x="65" y="50" width="50" height="45" rx="6" fill="url(#prodGrad4)" stroke="rgba(0,119,182,0.3)" stroke-width="2.5"/>
+                            <rect x="60" y="28" width="60" height="28" rx="6" fill="#0077B6"/>
+                            <rect x="55" y="190" width="70" height="130" rx="7" fill="white" fill-opacity="0.95"/>
+                            <text x="90" y="240" text-anchor="middle" font-family="Playfair Display" font-size="26" font-weight="700" fill="#0077B6">Safa</text>
+                            <text x="90" y="268" text-anchor="middle" font-family="Inter" font-size="12" fill="#005F8A">FAMILY PACK</text>
+                            <text x="90" y="295" text-anchor="middle" font-family="Inter" font-size="16" font-weight="600" fill="#0077B6">5 Liters</text>
+                        </svg>
+                    </div>
+                    <div class="product-info">
+                        <h3>Family Pack (5L)</h3>
+                        <p>Maximum value for households. Keep your family hydrated throughout the week with our largest size.</p>
+                        <div class="product-meta">
+                            <span class="size">5L</span>
+                            <span class="pack">Pack of 4</span>
+                        </div>
+                        <a href="#contact" class="btn btn-primary btn-sm">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Section -->
+    <section class="quality" id="quality">
+        <div class="container quality-container">
+            <div class="section-header center">
+                <span class="section-badge">Our Process</span>
+                <h2 class="section-title">Uncompromising Quality Standards</h2>
+                <p class="section-subtitle">
+                    Every bottle of Safa Water goes through a meticulous purification process 
+                    to ensure you receive only the purest, safest drinking water.
+                </p>
+            </div>
+            <div class="quality-timeline">
+                <div class="quality-step">
+                    <div class="step-number">01</div>
+                    <div class="step-icon">
+                        <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="30" cy="30" r="26" stroke="#0077B6" stroke-width="2"/>
+                            <path d="M20 25L28 33L40 20" stroke="#0077B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>Source Selection</h3>
+                    <p>We source water from protected underground aquifers, naturally filtered through geological formations over decades.</p>
+                </div>
+                <div class="quality-connector"></div>
+                <div class="quality-step">
+                    <div class="step-number">02</div>
+                    <div class="step-icon">
+                        <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="30" cy="30" r="26" stroke="#0077B6" stroke-width="2"/>
+                            <rect x="18" y="20" width="24" height="20" rx="3" stroke="#0077B6" stroke-width="2"/>
+                            <path d="M24 28H36M24 32H32" stroke="#0077B6" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Multi-Stage Filtration</h3>
+                    <p>Our 7-stage filtration system includes sediment filters, activated carbon, and reverse osmosis membranes.</p>
+                </div>
+                <div class="quality-connector"></div>
+                <div class="quality-step">
+                    <div class="step-number">03</div>
+                    <div class="step-icon">
+                        <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="30" cy="30" r="26" stroke="#0077B6" stroke-width="2"/>
+                            <circle cx="30" cy="30" r="10" stroke="#0077B6" stroke-width="2"/>
+                            <path d="M30 15V20M30 40V45M15 30H20M40 30H45" stroke="#0077B6" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>UV Sterilization</h3>
+                    <p>Advanced UV treatment eliminates any remaining microorganisms, ensuring microbiological safety without chemicals.</p>
+                </div>
+                <div class="quality-connector"></div>
+                <div class="quality-step">
+                    <div class="step-number">04</div>
+                    <div class="step-icon">
+                        <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="30" cy="30" r="26" stroke="#0077B6" stroke-width="2"/>
+                            <path d="M22 30C22 30 26 38 30 38C34 38 38 30 38 30" stroke="#0077B6" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="25" cy="25" r="3" fill="#0077B6"/>
+                            <circle cx="35" cy="25" r="3" fill="#0077B6"/>
+                        </svg>
+                    </div>
+                    <h3>Mineral Balance</h3>
+                    <p>Essential minerals like calcium and magnesium are carefully added back for optimal taste and health benefits.</p>
+                </div>
+                <div class="quality-connector"></div>
+                <div class="quality-step">
+                    <div class="step-number">05</div>
+                    <div class="step-icon">
+                        <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="30" cy="30" r="26" stroke="#0077B6" stroke-width="2"/>
+                            <rect x="20" y="18" width="20" height="24" rx="3" stroke="#0077B6" stroke-width="2"/>
+                            <path d="M26 28L30 32L36 24" stroke="#0077B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>Quality Testing</h3>
+                    <p>Every batch undergoes rigorous laboratory testing for pH, TDS, microbial content, and chemical purity.</p>
+                </div>
+                <div class="quality-connector"></div>
+                <div class="quality-step">
+                    <div class="step-number">06</div>
+                    <div class="step-icon">
+                        <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="30" cy="30" r="26" stroke="#0077B6" stroke-width="2"/>
+                            <path d="M24 22H36V38H24V22Z" stroke="#0077B6" stroke-width="2"/>
+                            <path d="M28 22V20C28 18 32 18 32 20V22" stroke="#0077B6" stroke-width="2"/>
+                            <path d="M27 28H33M27 32H33" stroke="#0077B6" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Safe Packaging</h3>
+                    <p>Bottles are filled in sterile conditions using food-grade, BPA-free materials and hermetically sealed.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sustainability Section -->
+    <section class="sustainability" id="sustainability">
+        <div class="container sustainability-container">
+            <div class="sustainability-content">
+                <span class="section-badge">Our Commitment</span>
+                <h2 class="section-title">Sustainable Practices for a Better Tomorrow</h2>
+                <p class="section-subtitle">
+                    We're committed to protecting the environment through responsible packaging, 
+                    efficient operations, and community initiatives.
+                </p>
+                <div class="sustainability-grid">
+                    <div class="sustain-card">
+                        <div class="sustain-icon">
+                            <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25 5C25 5 10 20 10 30C10 38.2843 16.7157 45 25 45C33.2843 45 40 38.2843 40 30C40 20 25 5 25 5Z" stroke="#2E8B57" stroke-width="2"/>
+                                <path d="M25 20V35M20 28H30" stroke="#2E8B57" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h4>Eco-Friendly Bottles</h4>
+                        <p>Our bottles are made from recyclable materials and we're transitioning to rPET for reduced environmental impact.</p>
+                    </div>
+                    <div class="sustain-card">
+                        <div class="sustain-icon">
+                            <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="25" cy="25" r="20" stroke="#2E8B57" stroke-width="2"/>
+                                <path d="M25 15V25L32 32" stroke="#2E8B57" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h4>Carbon Neutral Goals</h4>
+                        <p>We're working towards carbon neutrality by optimizing logistics and using renewable energy in production.</p>
+                    </div>
+                    <div class="sustain-card">
+                        <div class="sustain-icon">
+                            <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 35C10 35 15 25 25 25C35 25 40 35 40 35" stroke="#2E8B57" stroke-width="2" stroke-linecap="round"/>
+                                <circle cx="25" cy="18" r="8" stroke="#2E8B57" stroke-width="2"/>
+                                <path d="M25 10V6M20 13L17 10M30 13L33 10" stroke="#2E8B57" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h4>Water Conservation</h4>
+                        <p>Our facilities use closed-loop systems to minimize water waste and protect natural water sources.</p>
+                    </div>
+                    <div class="sustain-card">
+                        <div class="sustain-icon">
+                            <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="12" y="15" width="26" height="20" rx="3" stroke="#2E8B57" stroke-width="2"/>
+                                <path d="M18 15V12C18 10 32 10 32 12V15" stroke="#2E8B57" stroke-width="2"/>
+                                <path d="M20 25L24 29L30 22" stroke="#2E8B57" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>Recycling Programs</h4>
+                        <p>We partner with communities to establish recycling collection points and educate on proper disposal.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sustainability-visual">
+                <div class="nature-graphic">
+                    <svg viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="natureGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#E8F5E9"/>
+                                <stop offset="100%" style="stop-color:#C8E6C9"/>
+                            </linearGradient>
+                        </defs>
+                        <rect width="400" height="500" rx="30" fill="url(#natureGrad)"/>
+                        <!-- Sun -->
+                        <circle cx="320" cy="80" r="40" fill="#FFD54F" fill-opacity="0.6"/>
+                        <!-- Mountains -->
+                        <path d="M0 350L100 250L200 350L300 280L400 350V500H0V350Z" fill="#81C784" fill-opacity="0.5"/>
+                        <path d="M0 380L80 300L160 380V500H0V380Z" fill="#66BB6A" fill-opacity="0.6"/>
+                        <!-- Tree -->
+                        <rect x="180" y="320" width="15" height="60" fill="#795548"/>
+                        <circle cx="187" cy="300" r="35" fill="#4CAF50"/>
+                        <circle cx="170" cy="310" r="25" fill="#66BB6A"/>
+                        <circle cx="205" cy="310" r="25" fill="#66BB6A"/>
+                        <!-- Water drop -->
+                        <path d="M280 180C280 180 260 200 260 220C260 236.569 273.431 250 290 250C306.569 250 320 236.569 320 220C320 200 300 180 280 180Z" fill="#00BCD4" fill-opacity="0.7"/>
+                        <!-- Leaves floating -->
+                        <ellipse cx="80" cy="150" rx="20" ry="12" fill="#81C784" fill-opacity="0.6" transform="rotate(-30 80 150)"/>
+                        <ellipse cx="350" cy="280" rx="15" ry="10" fill="#66BB6A" fill-opacity="0.5" transform="rotate(45 350 280)"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container testimonials-container">
+            <div class="section-header center">
+                <span class="section-badge">Testimonials</span>
+                <h2 class="section-title">Trusted by Thousands</h2>
+                <p class="section-subtitle">
+                    Hear what our customers have to say about Safa Water's quality and service.
+                </p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <svg viewBox="0 0 20 20" fill="#FFB300"><path d="M10 1L12.39 6.26L18 7.27L14 11.14L14.76 17L10 14.27L5.24 17L6 11.14L2 7.27L7.61 6.26L10 1Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="#FFB300"><path d="M10 1L12.39 6.26L18 7.27L14 11.14L14.76 17L10 14.27L5.24 17L6 11.14L2 7.27L7.61 6.26L10 1Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="#FFB300"><path d="M10 1L12.39 6.26L18 7.27L14 11.14L14.76 17L10 14.27L5.24 17L6 11.14L2 7.27L7.61 6.26L10 1Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="#FFB300"><path d="M10 1L12.39 6.26L18 7.27L14 11.14L14.76 17L10 14.27L5.24 17L6 11.14L2 7.27L7.61 6.26L10 1Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="#FFB300"><path d="M10 1L12.39 6.26L18 7.27L14 11.14L14.76 17L10 14.27L5.24 17L6 11.14L2 7.27L7.61 6.26L10 1Z"/></svg>
+                    </div>
+                    <p class="testimonial-text">"Safa Water has been our family's choice for over 5 years. The taste is incredibly fresh and clean. We trust it completely for our children."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <span>AM</span>
+                        </div>
+                        <div class="author-info">
+                            <h4>Ahmed Mohammed</h4>
+                            <span>Family Customer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <svg viewBox="0 0 20 20" fill="#FFB300"><path d="M10 1L12.39 6.26L18 7.27L14 11.14L14.76 17L10 14.27L5.24 17L6 11.14L2 7.27L7.61 6.26L10 1Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="#FFB300"><path d="M10 1L12.39 6.26L18 7.27L14 11.14L14.76 17L10 14.27L5.24 17L6 11.14L2 7.27L7.61 6.26L10 1Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="#FFB300"><path d="M10 1L12.39 6.26L18 7.27L14 11.14L14.76 17L10 14.27L5.24 17L6 11.14L2 7.27L7.61 6.26L10 1Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="#FFB300"><path d="M10 1L12.39 6.26L18 7.27L14 11.14L14.76 17L10 14.27L5.24 17L6 11.14L2 7.27L7.61 6.26L10 1Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="#FFB300"><path d="M10 1L12.39 6.26L18 7.27L14 11.14L14.76 17L10 14.27L5.24 17L6 11.14L2 7.27L7.61 6.26L10 1Z"/></svg>
+                    </div>
+                    <p class="testimonial-text">"As a fitness trainer, hydration is crucial. Safa Water's 500ml bottles are perfect for my gym sessions. Great quality and reliable delivery."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <span>SJ</span>
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <span>Fitness Professional</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <svg viewBox="0 0 20 20" fill="#FFB300"><path d="M10 1L12.39 6.26L18 7.27L14 11.14L14.76 17L10 14.27L5.24 17L6 11.14L2 7.27L7.61 6.26L10 1Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="#FFB300"><path d="M10 1L12.39 6.26L18 7.27L14 11.14L14.76 17L10 14.27L5.24 17L6 11.14L2 7.27L7.61 6.26L10 1Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="#FFB300"><path d="M10 1L12.39 6.26L18 7.27L14 11.14L14.76 17L10 14.27L5.24 17L6 11.14L2 7.27L7.61 6.26L10 1Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="#FFB300"><path d="M10 1L12.39 6.26L18 7.27L14 11.14L14.76 17L10 14.27L5.24 17L6 11.14L2 7.27L7.61 6.26L10 1Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="#FFB300"><path d="M10 1L12.39 6.26L18 7.27L14 11.14L14.76 17L10 14.27L5.24 17L6 11.14L2 7.27L7.61 6.26L10 1Z"/></svg>
+                    </div>
+                    <p class="testimonial-text">"We supply Safa Water to our hotel guests. The premium quality matches our brand standards, and customer feedback has been excellent."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <span>KR</span>
+                        </div>
+                        <div class="author-info">
+                            <h4>Khalid Rahman</h4>
+                            <span>Hotel Manager</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="trust-badges">
+                <div class="badge">
+                    <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="30" cy="30" r="26" stroke="#0077B6" stroke-width="2"/>
+                        <path d="M20 30L28 38L40 22" stroke="#0077B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>ISO 9001 Certified</span>
+                </div>
+                <div class="badge">
+                    <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="30" cy="30" r="26" stroke="#0077B6" stroke-width="2"/>
+                        <path d="M30 15V30L40 35" stroke="#0077B6" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <span>24/7 Quality Monitoring</span>
+                </div>
+                <div class="badge">
+                    <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="30" cy="30" r="26" stroke="#0077B6" stroke-width="2"/>
+                        <path d="M18 25H42M18 30H42M18 35H35" stroke="#0077B6" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <span>FDA Approved</span>
+                </div>
+                <div class="badge">
+                    <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="30" cy="30" r="26" stroke="#0077B6" stroke-width="2"/>
+                        <path d="M22 30C22 30 26 38 30 38C34 38 38 30 38 30" stroke="#0077B6" stroke-width="2" stroke-linecap="round"/>
+                        <circle cx="25" cy="25" r="3" fill="#0077B6"/>
+                        <circle cx="35" cy="25" r="3" fill="#0077B6"/>
+                    </svg>
+                    <span>100% Safe & Pure</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container contact-container">
+            <div class="contact-content">
+                <span class="section-badge">Get In Touch</span>
+                <h2 class="section-title">Ready to Order or Have Questions?</h2>
+                <p class="section-subtitle">
+                    Contact us for bulk orders, distribution partnerships, or any inquiries. 
+                    Our team is ready to assist you.
+                </p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Industrial Area, Business Bay<br>Dubai, United Arab Emirates</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+971 4 XXX XXXX<br>+971 50 XXX XXXX</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@safawater.com<br>orders@safawater.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Business Hours</h4>
+                            <p>Sunday - Thursday: 8AM - 6PM<br>Saturday: 9AM - 2PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-wrapper">
+                <form class="contact-form" id="contactForm">
+                    <h3>Send Us a Message</h3>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your full name" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+971 XX XXX XXXX">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="order">Place an Order</option>
+                            <option value="distribution">Distribution Partnership</option>
+                            <option value="support">Customer Support</option>
+                            <option value="other">Other Inquiry</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help you..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Send Message</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"/>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <svg class="logo-icon" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="footerLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#0077B6"/>
+                                    <stop offset="100%" style="stop-color:#00B4D8"/>
+                                </linearGradient>
+                            </defs>
+                            <circle cx="30" cy="30" r="28" stroke="url(#footerLogoGrad)" stroke-width="2" fill="none"/>
+                            <path d="M30 12C30 12 18 24 18 34C18 40.6274 23.3726 46 30 46C36.6274 46 42 40.6274 42 34C42 24 30 12 30 12Z" fill="url(#footerLogoGrad)"/>
+                            <ellipse cx="30" cy="36" rx="8" ry="5" fill="white" fill-opacity="0.3"/>
+                        </svg>
+                        <span class="logo-text">Safa Water</span>
+                    </a>
+                    <p>Pure, premium quality water delivered to your doorstep. Trusted by families and businesses across the region since 2010.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#products">Products</a></li>
+                            <li><a href="#quality">Quality Process</a></li>
+                            <li><a href="#sustainability">Sustainability</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Products</h4>
+                        <ul>
+                            <li><a href="#products">330ml Bottle</a></li>
+                            <li><a href="#products">500ml Bottle</a></li>
+                            <li><a href="#products">1.5L Bottle</a></li>
+                            <li><a href="#products">Family Pack 5L</a></li>
+                            <li><a href="#contact">Bulk Orders</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Delivery Info</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Safa Water Company. All rights reserved.</p>
+                <p>Designed with purity in mind.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
